@@ -11,12 +11,11 @@ train_distance = 100
 bomb_mass = 1
 
 
-# Write your code below:
 #takes an input temperature in Fahrenheit, and converts it to a temperature in Celsius.
 def f_to_c(f_temp):
   return (f_temp - 32) * 5 / 9
 
-#esting function with a value of 100 Fahrenheit
+#testing f_to_c function with a value of 100 Fahrenheit
 f100_in_celsius = f_to_c(100)
 print(round(f100_in_celsius, 2))
 
@@ -24,7 +23,7 @@ print(round(f100_in_celsius, 2))
 def c_to_f(c_temp):
   return c_temp * (9 / 5) + 32
 
-#testing function with a value of 0 Celsius
+#testing c_to_f function with a value of 0 Celsius
 c0_in_fahrenheit = c_to_f(0)
 print(round(c0_in_fahrenheit, 2))
 
